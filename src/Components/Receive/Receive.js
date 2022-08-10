@@ -119,10 +119,7 @@ return(
       </div>
 
    </div>
-</div></section> 
-                
-   
-         
+</div></section>         
 )
 }
-export default Receive
+export default Receive;
