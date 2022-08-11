@@ -1,4 +1,5 @@
 
+
 import'./Campus.css'
 const  dataCampus=[
   {
@@ -45,3 +46,4 @@ function Campus(){
     )
 }
 export default Campus;
+
