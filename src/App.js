@@ -4,10 +4,11 @@ import Receive from "./Components/Receive/Receive";
 import Campus from "./Components/Campus/Campus";
 import Review from "./Components/Review/Review";
 import AboutDev from "./Components/AbouDev/AboutDev";
-
+import Navbar from "./Components/Navbar/Navbar";
 function App() {
   return (
     <>
+      <Navbar/>
       <AboutDev />
       <Receive />
       <Campus />
