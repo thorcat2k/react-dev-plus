@@ -6,8 +6,6 @@ import Campus from "./Components/Campus/Campus";
 import Review from "./Components/Review/Review";
 import AboutDev from "./Components/AbouDev/AboutDev";
 import Navbar from "./Components/Navbar/Navbar";
-=======
-import Navbar from "./Components/Navbar/Navbar";
 
 >>>>>>> done navbar
 function App() {
