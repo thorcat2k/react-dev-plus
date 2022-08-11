@@ -1,3 +1,4 @@
+
 import "./Common.css";
 import { useState } from "react";
 import { FiBellOff, FiBell } from "react-icons/fi";
@@ -74,7 +75,7 @@ function Common() {
                     <div
                       className={
                         selected === i
-                          ? "answer-show active" + " item" + i
+                          ? `answer-show active item${i}`
                           : "answer-show"
                       }
                     >
@@ -114,3 +115,4 @@ function Common() {
 }
 
 export default Common;
+
