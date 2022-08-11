@@ -74,7 +74,7 @@ function Common() {
                     <div
                       className={
                         selected === i
-                          ? "answer-show active" + " item" + i
+                          ? `answer-show active item${i}`
                           : "answer-show"
                       }
                     >
