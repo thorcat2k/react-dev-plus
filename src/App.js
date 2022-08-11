@@ -4,6 +4,7 @@ import Receive from "./Components/Receive/Receive";
 import Campus from "./Components/Campus/Campus";
 import Review from "./Components/Review/Review";
 import AboutDev from "./Components/AbouDev/AboutDev";
+import Admission from "./Components/Admission/Admission";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AboutDev />
       <Receive />
       <Campus />
+      <Admission />
       <Common />
       <Review />
     </>

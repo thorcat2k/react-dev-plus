@@ -1,47 +1,31 @@
 import "./AboutDev.css";
-
+const dataAboutDev = [
+  { content: "Apply Devplus" },
+  { content: "Testing and Interview" },
+  { content: "1st plus (+) campus" },
+  { content: "2nd plus (++) campus" },
+  { content: "Onboard & start your career" },
+];
 function AboutDev() {
   return (
     <div className="container-hero hero">
       <div className="hero">
         <div className="hero-right">
-          <h4 className="ti ">Road to be a devplus</h4>
+          <h4 className="ti fade-up ">Road to be a devplus</h4>
           <ul className="part">
-            <li>
-              <div className="so">
-                <span>1</span>
-              </div>
-              <div className="noidung">Apply Devplus</div>
-            </li>
-            <li>
-              <div className="so">
-                <span>2</span>
-              </div>
-              <div className="noidung">Testing and Interview</div>
-            </li>
-            <li>
-              <div className="so">
-                <span>3</span>
-              </div>
-              <div className="noidung ">1st plus (+) campus</div>
-            </li>
-            <li>
-              <div className="so">
-                <span>4</span>
-              </div>
-              <div className="noidung">2nd plus (++) campus</div>
-            </li>
-            <li>
-              <div className="so">
-                <span>5</span>
-              </div>
-              <div className="noidung ">Onboard & start your career</div>
-            </li>
+            {dataAboutDev.map((item, index) => (
+              <li className="fade-up" key={index}>
+                <div className="num">
+                  <span>{index + 1}</span>
+                </div>
+                <div className="content">{item.content}</div>
+              </li>
+            ))}
           </ul>
         </div>
-        <div className="hero-left">
-          <div className="tacgia">ABOUT DEVPLUS</div>
-          <h2 className="tieude">
+        <div className="hero-left fade-up">
+          <div className="author">ABOUT DEVPLUS</div>
+          <h2 className="title">
             The Fact: Skilled labour shortage for software companies but full of
             freshers and low level juniors
           </h2>
